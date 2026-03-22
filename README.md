@@ -8,19 +8,19 @@ ________________________________________________________________________________
 
 📋 Table of Contents:
 
-Overview
+*Overview*
 
-Skills Demonstrated
+*Skills Demonstrated*
 
-Phase 1: Incident Management
+*Phase 1: Incident Management*
 
-Phase 2: Service Catalog & Request Fulfillment
+*Phase 2: Service Catalog & Request Fulfillment*
 
-Phase 3: User Administration & CMDB
+*Phase 3: User Administration & CMDB*
 
-Phase 4: Reporting & Dashboards
+*Phase 4: Reporting & Dashboards*
 
-Key Concepts Learned
+*Key Concepts Learned*
 
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
