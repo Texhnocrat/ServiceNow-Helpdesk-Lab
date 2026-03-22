@@ -1,3 +1,6 @@
+
+<img width="1916" height="509" alt="Screenshot 2026-03-21 212143" src="https://github.com/user-attachments/assets/9e3e4ced-f06f-42c2-91eb-08c24156e21e" />
+
 🖥️ ServiceNow Help Desk Lab:
 
 A hands-on ITSM lab completed in a ServiceNow Personal Developer Instance (PDI) simulating real help desk workflows. This project covers the full incident lifecycle, service request fulfillment, user administration, CMDB asset tracking, and reporting/dashboards.
