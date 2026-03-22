@@ -71,7 +71,7 @@ Short description: "User unable to access Outlook after password reset"
 Priority auto-calculated to 3 – Moderate based on Impact + Urgency values
 
 
-💡 Priority in ServiceNow is not manually set — it is calculated automatically from the Impact and Urgency fields using a priority lookup matrix. This ensures consistent prioritization across all technicians.
+*💡 Priority in ServiceNow is not manually set — it is calculated automatically from the Impact and Urgency fields using a priority lookup matrix. This ensures consistent prioritization across all technicians.*
 
 ******Show Image*****
 
@@ -86,7 +86,7 @@ Changed State to: In Progress
 Added a Work Note: "Contacted user, resetting Outlook profile. Monitoring."
 
 
-💡 Work Notes vs. Additional Comments: Work Notes are internal only — visible to agents but not the end user. Additional Comments are customer-visible. Knowing this distinction is critical in a real help desk environment to avoid accidentally sharing internal troubleshooting details with users.
+*💡 Work Notes vs. Additional Comments: Work Notes are internal only — visible to agents but not the end user. Additional Comments are customer-visible. Knowing this distinction is critical in a real help desk environment to avoid accidentally sharing internal troubleshooting details with users.*
 
 *Show Image*
 
@@ -111,7 +111,7 @@ What I did
 
 Submitted a hardware request as an end user (impersonating Abel Schuehlein), then processed the approval and fulfilled the request as an admin.
 
-💡 REQ vs. RITM: When a user submits a catalog request, ServiceNow generates a REQ (Request) as the parent "shopping cart" record and one RITM (Requested Item) per line item ordered. A single REQ can contain multiple RITMs, each fulfilled by a different team. This separation is fundamental to how ServiceNow handles request fulfillment.
+*💡 REQ vs. RITM: When a user submits a catalog request, ServiceNow generates a REQ (Request) as the parent "shopping cart" record and one RITM (Requested Item) per line item ordered. A single REQ can contain multiple RITMs, each fulfilled by a different team. This separation is fundamental to how ServiceNow handles request fulfillment.*
 
 Step 1 — Submitted the request as end user (Abel Schuehlein)
 
@@ -144,7 +144,7 @@ Changed State to Closed Complete
 Added customer comment: "Your laptop request has been fulfilled. Your new Lenovo Carbon x1 will be delivered within 9 days."
 
 
-💡 Approval workflows depend on complete user records. During this lab I discovered that if a requester has no manager assigned in their user record, ServiceNow cannot trigger the approval workflow — the approval status remains "Not yet requested." In a production environment, complete and accurate user records are essential for all automated workflows to function correctly.
+*💡 Approval workflows depend on complete user records. During this lab I discovered that if a requester has no manager assigned in their user record, ServiceNow cannot trigger the approval workflow — the approval status remains "Not yet requested." In a production environment, complete and accurate user records are essential for all automated workflows to function correctly.*
 
 *Show Image*
 *Show Image*
@@ -173,7 +173,7 @@ Manager: Abel Schuehlein
 
 Then navigated to the Roles tab and assigned the itil role.
 
-💡 The itil role is the standard role assigned to help desk agents in ServiceNow. It grants access to create and manage incidents, problems, changes, and service requests — the core ITSM modules. Without this role, a user cannot interact with most help desk workflows.
+*💡 The itil role is the standard role assigned to help desk agents in ServiceNow. It grants access to create and manage incidents, problems, changes, and service requests — the core ITSM modules. Without this role, a user cannot interact with most help desk workflows.*
 
 *Show Image*
 *Show Image*
@@ -198,7 +198,7 @@ Company: ACME North America
 
 Then opened the CMDB Workspace to view the visual relationship map for the CI.
 
-💡 What is the CMDB? The Configuration Management Database (CMDB) is ServiceNow's inventory of all IT assets (called Configuration Items or CIs). Keeping the CMDB accurate is critical — it lets help desk teams know exactly what hardware and software exists, who it belongs to, and how assets relate to each other.
+*💡 What is the CMDB? The Configuration Management Database (CMDB) is ServiceNow's inventory of all IT assets (called Configuration Items or CIs). Keeping the CMDB accurate is critical — it lets help desk teams know exactly what hardware and software exists, who it belongs to, and how assets relate to each other.*
 
 *Show Image*
 *Show Image*
@@ -207,7 +207,7 @@ Step 3 — Linked the CI to an incident
 
 Opened INC from Phase 1, scrolled to the Affected CIs related list, and added JASON-IBM.
 
-💡 Why link CIs to incidents? If the same asset appears on multiple incidents over time, it signals a recurring hardware problem that may need replacement rather than repeated troubleshooting. This is how help desk teams identify chronic problem assets and escalate to Problem Management.
+*💡 Why link CIs to incidents? If the same asset appears on multiple incidents over time, it signals a recurring hardware problem that may need replacement rather than repeated troubleshooting. This is how help desk teams identify chronic problem assets and escalate to Problem Management.*
 
 *Show Image*
 
@@ -219,7 +219,7 @@ What I did
 
 Built a visualization showing incidents grouped by category, then added it to a custom help desk dashboard alongside a live incident list.
 
-💡 Platform Analytics note: On this PDI (Xanadu release), the legacy Reports module has been replaced by Platform Analytics → Data Visualizations. The concepts are identical — the navigation path is different from older ServiceNow documentation.
+*💡 Platform Analytics note: On this PDI (Xanadu release), the legacy Reports module has been replaced by Platform Analytics → Data Visualizations. The concepts are identical — the navigation path is different from older ServiceNow documentation.*
 
 Step 1 — Created an incident visualization
 
