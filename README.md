@@ -1,5 +1,4 @@
-
-<img width="1916" height="509" alt="Screenshot 2026-03-21 212143" src="https://github.com/user-attachments/assets/9e3e4ced-f06f-42c2-91eb-08c24156e21e" />
+<img width="1917" height="616" alt="Dashboard_Charts" src="https://github.com/user-attachments/assets/23548d47-3ad8-46ef-87fd-fd29834170eb" />
 
 🖥️ ServiceNow Help Desk Lab:
 
