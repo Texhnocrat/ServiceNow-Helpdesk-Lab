@@ -65,7 +65,7 @@ Step 1 — Created a new incident
 
 Navigated to Incident → Create New and filled in all required fields:
 
-Caller: Abel Schuehlein
+Caller: Melinda Carleton
 
 Category: Software / Subcategory: Email
 
