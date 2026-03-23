@@ -57,6 +57,10 @@ Phase 1: Incident Management Lifecycle
 What I did
 
 Simulated the full lifecycle of a help desk incident — from initial creation through resolution and closure.
+<img width="578" height="594" alt="1 Incident_File_Navigation" src="https://github.com/user-attachments/assets/b496fbb5-8814-4eac-8285-82d21cef82d1" />
+<img width="1919" height="592" alt="2 Incident_Table_Overview" src="https://github.com/user-attachments/assets/835a3e02-6fb7-45e7-ac67-a553751de4c5" />
+
+
 
 Step 1 — Created a new incident
 
